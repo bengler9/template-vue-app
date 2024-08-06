@@ -1,16 +1,6 @@
 <template>
   <section class="home">
-    <base-card>
-      <div><h1>Welcome to CloudBot.AI</h1></div>
-      <div>
-        Automated, AI Powered, cloud management at scale with security,
-        governance, and compliance built-in.
-      </div>
-    </base-card>
-    <base-card>
-    <div><h1>Register for our Newsletter!</h1></div>
-    <base-button>Sign-Up</base-button>
-  </base-card>
+    <div><h1>Good Day from CloudBot.AI!</h1></div>
   </section>
 </template>
 

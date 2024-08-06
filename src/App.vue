@@ -1,20 +1,14 @@
 <template>
     <section>
-      <the-header></the-header>
       <RouterView />
-      <the-footer></the-footer>
     </section>
   </template>
   
   <script>
   import { RouterLink, RouterView } from "vue-router";
-  import TheHeader from "./components/layouts/TheHeader.vue";
-  import TheFooter from "./components/layouts/TheFooter.vue";
   
   export default {
     components: {
-      TheHeader,
-      TheFooter,
     },
   };
   </script>

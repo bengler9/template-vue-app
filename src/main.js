@@ -5,22 +5,6 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-const BaseCard = defineAsyncComponent(() =>
-  import("./components/ui/BaseCard.vue")
-);
-const BaseButton = defineAsyncComponent(() =>
-  import("./components/ui/BaseButton.vue")
-);
-const BaseBadge = defineAsyncComponent(() =>
-  import("./components/ui/BaseBadge.vue")
-);
-const BaseSpinner = defineAsyncComponent(() =>
-  import("./components/ui/BaseSpinner.vue")
-);
-const BaseDialog = defineAsyncComponent(() =>
-  import("./components/ui/BaseDialog.vue")
-);
-
 const app = createApp(App);
 
 app.use(router);
